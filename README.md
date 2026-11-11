@@ -86,7 +86,9 @@ BRFSS (state × year × group)      Food Environment Atlas (county, long format)
 - **Merge:** many-to-one join on state code. Territories and the national row were dropped, leaving 51 matched states.
 
 ## My contribution
-I cleaned the **USDA Food Environment Atlas** for the team. That meant handling the placeholder codes, fixing the mislabeled units, and preparing the county-level data for the state-level roll-up. The roll-up let us join the Atlas with the CDC data and got our dataset approved.
+- **Data cleaning:** cleaned the **USDA Food Environment Atlas** for the team. That meant handling the placeholder codes, fixing the mislabeled units, and preparing the county-level data for the state-level roll-up. The roll-up let us join the Atlas with the CDC data and got our dataset approved.
+- **Visualizations:** helped build the charts that carry the analysis.
+- **Notebook formatting:** helped format the Colab notebook so the final version reads cleanly from start to finish.
 
 ## Limitations
 - **Correlation, not causation.** Income, urbanization and age are tangled together at the state level.
